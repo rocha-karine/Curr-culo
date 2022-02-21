@@ -1,0 +1,91 @@
+body{
+    background-color: lightblue;
+}
+
+h3{
+    font-family: Andale Mono, monospace;
+}
+
+.principal{
+    background-color: white;
+    margin: 0 200px 0 200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    }
+
+    .lado_esquerdo{
+        background-color: #355586;
+        padding: 4%;
+            }
+
+    .lado_direito{
+        background-color: white;
+        padding: 5%;
+    }
+
+    .foto_perfil{
+        margin: 50px;
+        border-radius: 50%;
+    }
+
+
+    .titulo_contato{
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .material-icons.icone_branco{
+        color: white;
+    }
+
+
+
+    .bloco_informacao{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .descricao{
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        font-family: andale Mono, monospace;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    H1{
+        font-family: calibri, monospace;
+        color: #355586;
+        }
+
+    h2{
+        font-family: calibri, monospace;
+        color: #355586;
+        font-size: 20px;
+        }
+.titulo_experiência{
+    font-family: calibri, monospace;
+    font-size: 20px;
+    color: #355586;
+}
+
+
+.cargo{
+    font-family: calibri, monospace;
+    color: #355586;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.atividades{
+    font-family: calibri, monospace;
+    color: #355586;
+    font-size: 16px;
+}
